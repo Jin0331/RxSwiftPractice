@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB7F0AF12BB4485A00176423 /* SimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7F0AF02BB4485A00176423 /* SimpleValidationViewController.swift */; };
 		DBEBA11F2BB432C70003A6E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEBA11E2BB432C70003A6E0 /* AppDelegate.swift */; };
 		DBEBA1212BB432C70003A6E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEBA1202BB432C70003A6E0 /* SceneDelegate.swift */; };
 		DBEBA1282BB432C80003A6E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEBA1272BB432C80003A6E0 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB7F0AF02BB4485A00176423 /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleValidationViewController.swift; sourceTree = "<group>"; };
 		DBEBA11B2BB432C70003A6E0 /* RxSwiftPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBEBA11E2BB432C70003A6E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBEBA1202BB432C70003A6E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			children = (
 				DBEBA1332BB437D80003A6E0 /* SimplePickerViewController.swift */,
 				DBEBA14C2BB440A30003A6E0 /* SimpleNumbersViewController.swift */,
+				DB7F0AF02BB4485A00176423 /* SimpleValidationViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBEBA1342BB437D80003A6E0 /* SimplePickerViewController.swift in Sources */,
+				DB7F0AF12BB4485A00176423 /* SimpleValidationViewController.swift in Sources */,
 				DBEBA1452BB43B0E0003A6E0 /* BaseView.swift in Sources */,
 				DBEBA11F2BB432C70003A6E0 /* AppDelegate.swift in Sources */,
 				DBEBA14D2BB440A30003A6E0 /* SimpleNumbersViewController.swift in Sources */,
