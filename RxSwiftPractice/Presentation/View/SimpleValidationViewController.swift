@@ -21,7 +21,10 @@ class SimpleValidationViewController: BaseViewController {
     let usernameValidOutlet = UILabel()
     let passwordOutlet = UITextField()
     let passwordValidOutlet = UILabel()
-    let doSomethingOutlet = UIButton()
+    let doSomethingOutlet = UIButton().then {
+        $0.backgroundColor = .black
+        $0.setTitle("Do Something", for: .normal)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,19 +63,6 @@ class SimpleValidationViewController: BaseViewController {
             .subscribe(onNext: { [weak self] _ in self?.showAlert() })
             .disposed(by: disposeBag)
      
-    }
-    
-    func showAlert() {
-        let alert = UIAlertController(
-            title: "RxExample",
-            message: "This is wonderful",
-            preferredStyle: .alert
-        )
-        let defaultAction = UIAlertAction(title: "Ok",
-                                          style: .default,
-                                          handler: nil)
-        alert.addAction(defaultAction)
-        present(alert, animated: true, completion: nil)
     }
     
     override func configureHierarchy() {

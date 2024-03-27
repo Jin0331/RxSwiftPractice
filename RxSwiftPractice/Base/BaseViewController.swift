@@ -34,4 +34,16 @@ class BaseViewController : UIViewController {
         view.backgroundColor = .white
     }
     
+    func showAlert(title : String = "RxExample") {
+        let alert = UIAlertController(
+            title: title,
+            message: "This is wonderful",
+            preferredStyle: .alert
+        )
+        let defaultAction = UIAlertAction(title: "Ok",
+                                          style: .default,
+                                          handler: nil)
+        alert.addAction(defaultAction)
+        present(alert, animated: true, completion: nil)
+    }
 }
