@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		DBEBA11F2BB432C70003A6E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEBA11E2BB432C70003A6E0 /* AppDelegate.swift */; };
 		DBEBA1212BB432C70003A6E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEBA1202BB432C70003A6E0 /* SceneDelegate.swift */; };
-		DBEBA1232BB432C70003A6E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEBA1222BB432C70003A6E0 /* ViewController.swift */; };
-		DBEBA1262BB432C70003A6E0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DBEBA1252BB432C70003A6E0 /* Base */; };
 		DBEBA1282BB432C80003A6E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEBA1272BB432C80003A6E0 /* Assets.xcassets */; };
 		DBEBA12B2BB432C80003A6E0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DBEBA12A2BB432C80003A6E0 /* Base */; };
 		DBEBA1342BB437D80003A6E0 /* SimplePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEBA1332BB437D80003A6E0 /* SimplePickerViewController.swift */; };
@@ -20,20 +18,20 @@
 		DBEBA13F2BB439A50003A6E0 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = DBEBA13E2BB439A50003A6E0 /* Then */; };
 		DBEBA1452BB43B0E0003A6E0 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEBA1412BB43B0E0003A6E0 /* BaseView.swift */; };
 		DBEBA1482BB43B530003A6E0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEBA1472BB43B530003A6E0 /* BaseViewController.swift */; };
+		DBEBA14D2BB440A30003A6E0 /* SimpleNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEBA14C2BB440A30003A6E0 /* SimpleNumbersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DBEBA11B2BB432C70003A6E0 /* RxSwiftPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBEBA11E2BB432C70003A6E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBEBA1202BB432C70003A6E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DBEBA1222BB432C70003A6E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DBEBA1252BB432C70003A6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBEBA1272BB432C80003A6E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBEBA12A2BB432C80003A6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBEBA12C2BB432C80003A6E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBEBA1332BB437D80003A6E0 /* SimplePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePickerViewController.swift; sourceTree = "<group>"; };
 		DBEBA1412BB43B0E0003A6E0 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		DBEBA1472BB43B530003A6E0 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DBEBA14C2BB440A30003A6E0 /* SimpleNumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNumbersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,15 +68,13 @@
 		DBEBA11D2BB432C70003A6E0 /* RxSwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
+				DBEBA1492BB440750003A6E0 /* Presentation */,
 				DBEBA1432BB43B0E0003A6E0 /* Base */,
 				DBEBA11E2BB432C70003A6E0 /* AppDelegate.swift */,
 				DBEBA1202BB432C70003A6E0 /* SceneDelegate.swift */,
-				DBEBA1222BB432C70003A6E0 /* ViewController.swift */,
-				DBEBA1242BB432C70003A6E0 /* Main.storyboard */,
 				DBEBA1272BB432C80003A6E0 /* Assets.xcassets */,
 				DBEBA1292BB432C80003A6E0 /* LaunchScreen.storyboard */,
 				DBEBA12C2BB432C80003A6E0 /* Info.plist */,
-				DBEBA1332BB437D80003A6E0 /* SimplePickerViewController.swift */,
 			);
 			path = RxSwiftPractice;
 			sourceTree = "<group>";
@@ -90,6 +86,31 @@
 				DBEBA1472BB43B530003A6E0 /* BaseViewController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		DBEBA1492BB440750003A6E0 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				DBEBA14B2BB440880003A6E0 /* ViewModel */,
+				DBEBA14A2BB440830003A6E0 /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		DBEBA14A2BB440830003A6E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DBEBA1332BB437D80003A6E0 /* SimplePickerViewController.swift */,
+				DBEBA14C2BB440A30003A6E0 /* SimpleNumbersViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DBEBA14B2BB440880003A6E0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +184,6 @@
 			files = (
 				DBEBA1282BB432C80003A6E0 /* Assets.xcassets in Resources */,
 				DBEBA12B2BB432C80003A6E0 /* Base in Resources */,
-				DBEBA1262BB432C70003A6E0 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,9 +195,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBEBA1342BB437D80003A6E0 /* SimplePickerViewController.swift in Sources */,
-				DBEBA1232BB432C70003A6E0 /* ViewController.swift in Sources */,
 				DBEBA1452BB43B0E0003A6E0 /* BaseView.swift in Sources */,
 				DBEBA11F2BB432C70003A6E0 /* AppDelegate.swift in Sources */,
+				DBEBA14D2BB440A30003A6E0 /* SimpleNumbersViewController.swift in Sources */,
 				DBEBA1212BB432C70003A6E0 /* SceneDelegate.swift in Sources */,
 				DBEBA1482BB43B530003A6E0 /* BaseViewController.swift in Sources */,
 			);
@@ -186,14 +206,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DBEBA1242BB432C70003A6E0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DBEBA1252BB432C70003A6E0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DBEBA1292BB432C80003A6E0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
